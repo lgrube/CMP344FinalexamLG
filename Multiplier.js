@@ -3,8 +3,8 @@
 //mulitple two numbers
 
 function multiply() {
-	var a = 6;
-	var b = 6;
+	var a = 6 +1;
+	var b = 6 +1;
 	print(a *=b);
 }
 multiply(6,6);
