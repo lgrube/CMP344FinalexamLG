@@ -1,0 +1,17 @@
+load("Graph.js");
+g = new Graph(7);
+g.addEdge(0,2);
+g.addEdge(6,0);
+g.addEdge(4,2);
+g.addEdge(6,4);
+g.addEdge(5,2);
+g.addEdge(6,5);
+g.addEdge(6,2);
+g.addEdge(3,2);
+g.addEdge(1,0);
+g.showGraph();
+//g.bfs();
+//var vertex = 6;
+//var source = 2;
+//var paths = g.pathTo(source, vertex);
+//g.showPath(paths);
